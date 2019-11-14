@@ -1,5 +1,5 @@
 //
-//  EHINavigator.h
+//  LCNavigator.h
 //  1haiiPhone
 //
 //  Created by LuckyCat on 2018/4/19.
@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-@interface EHINavigator : NSObject
+@interface LCNavigator : NSObject
 
 #pragma mark - 传参说明（id可传类型：UIViewController对象/NSString/[UIViewController class]）
 

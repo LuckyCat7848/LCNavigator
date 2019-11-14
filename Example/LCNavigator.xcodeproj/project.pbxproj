@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		372AE42B4F398841B194F8B2 /* Pods_LCNavigator_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8C396EC0B181E39201C670C /* Pods_LCNavigator_Tests.framework */; };
-		4335EBE7237CF62D00A938E7 /* EHINavigator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4335EBE2237CF62D00A938E7 /* EHINavigator.m */; };
+		4335EBE7237CF62D00A938E7 /* LCNavigator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4335EBE2237CF62D00A938E7 /* LCNavigator.m */; };
 		4335EBE8237CF62D00A938E7 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 4335EBE3237CF62D00A938E7 /* .gitkeep */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -39,9 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4335EBE2237CF62D00A938E7 /* EHINavigator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EHINavigator.m; sourceTree = "<group>"; };
+		4335EBE2237CF62D00A938E7 /* LCNavigator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCNavigator.m; sourceTree = "<group>"; };
 		4335EBE3237CF62D00A938E7 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		4335EBE4237CF62D00A938E7 /* EHINavigator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EHINavigator.h; sourceTree = "<group>"; };
+		4335EBE4237CF62D00A938E7 /* LCNavigator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCNavigator.h; sourceTree = "<group>"; };
 		45A2CD91361E43C4D80311DF /* Pods_LCNavigator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LCNavigator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		45FC79D9DEA5CB2DCEB83BCA /* Pods-LCNavigator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCNavigator_Example.debug.xcconfig"; path = "Target Support Files/Pods-LCNavigator_Example/Pods-LCNavigator_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		54C0218D1D7F56C7C4463F73 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -113,8 +113,8 @@
 			isa = PBXGroup;
 			children = (
 				4335EBE3237CF62D00A938E7 /* .gitkeep */,
-				4335EBE4237CF62D00A938E7 /* EHINavigator.h */,
-				4335EBE2237CF62D00A938E7 /* EHINavigator.m */,
+				4335EBE4237CF62D00A938E7 /* LCNavigator.h */,
+				4335EBE2237CF62D00A938E7 /* LCNavigator.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -397,7 +397,7 @@
 			files = (
 				6003F59E195388D20070C39A /* LCAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* LCViewController.m in Sources */,
-				4335EBE7237CF62D00A938E7 /* EHINavigator.m in Sources */,
+				4335EBE7237CF62D00A938E7 /* LCNavigator.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -10,7 +10,7 @@
 #endif
 #endif
 
-#import "EHINavigator.h"
+#import "LCNavigator.h"
 
 FOUNDATION_EXPORT double LCNavigatorVersionNumber;
 FOUNDATION_EXPORT const unsigned char LCNavigatorVersionString[];

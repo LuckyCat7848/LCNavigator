@@ -1,20 +1,20 @@
 //
-//  EHINavigator.m
+//  LCNavigator.m
 //  1haiiPhone
 //
 //  Created by LuckyCat on 2018/4/19.
 //  Copyright © 2018年 LuckyCat. All rights reserved.
 //
 
-#import "EHINavigator.h"
+#import "LCNavigator.h"
 #import "NSObject+YYModel.h"
 
 typedef enum : NSUInteger {
-    EHINavigatorOpenTypePush,
-    EHINavigatorOpenTypePresent,
-} EHINavigatorOpenType;
+    LCNavigatorOpenTypePush,
+    LCNavigatorOpenTypePresent,
+} LCNavigatorOpenType;
 
-@implementation EHINavigator
+@implementation LCNavigator
 
 #pragma mark - Push/Present
 
@@ -31,7 +31,7 @@ typedef enum : NSUInteger {
 }
 
 + (void)push:(id)viewController extraParams:(NSDictionary *)extraParams animated:(BOOL)animated {
-    [self open:viewController extraParams:extraParams type:EHINavigatorOpenTypePush animated:animated];
+    [self open:viewController extraParams:extraParams type:LCNavigatorOpenTypePush animated:animated];
 }
 
 + (void)present:(id)viewController {
@@ -47,24 +47,24 @@ typedef enum : NSUInteger {
 }
 
 + (void)present:(id)viewController extraParams:(NSDictionary *)extraParams animated:(BOOL)animated {
-    [self open:viewController extraParams:extraParams type:EHINavigatorOpenTypePresent animated:animated];
+    [self open:viewController extraParams:extraParams type:LCNavigatorOpenTypePresent animated:animated];
 }
 
 + (void)open:(id)viewController
  extraParams:(NSDictionary *)extraParams
-        type:(EHINavigatorOpenType)type
+        type:(LCNavigatorOpenType)type
     animated:(BOOL)animated {
 
     UIViewController *controller = [self controllerWith:viewController extraParams:extraParams];
     if (controller) {
         UINavigationController *nav = [self currentNavigationController];
         switch (type) {
-            case EHINavigatorOpenTypePush: {
+            case LCNavigatorOpenTypePush: {
                 controller.hidesBottomBarWhenPushed = YES;
                 [nav pushViewController:controller animated:animated];
             }
                 break;
-            case EHINavigatorOpenTypePresent: {
+            case LCNavigatorOpenTypePresent: {
                 if ([controller.class isSubclassOfClass:UINavigationController.class]) {
                     controller.modalPresentationStyle = UIModalPresentationFullScreen;
                     [nav presentViewController:controller

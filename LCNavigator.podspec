@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LCNavigator'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = '一个方便页面控制器之间跳转的工具~✌️'
 
 # This description is used to generate tags and improve search results.

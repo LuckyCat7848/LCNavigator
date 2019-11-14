@@ -1,6 +1,6 @@
 {
   "name": "LCNavigator",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "summary": "一个方便页面控制器之间跳转的工具~✌️",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/LuckyCat7848/LCNavigator",
@@ -9,11 +9,11 @@
     "file": "LICENSE"
   },
   "authors": {
-    "LuckyCat": "https://github.com/LuckyCat7848?tab=repositories"
+    "LuckyCat": "https://github.com/LuckyCat7848/Blogs"
   },
   "source": {
     "git": "https://github.com/LuckyCat7848/LCNavigator.git",
-    "tag": "0.1.0"
+    "tag": "0.2.0"
   },
   "platforms": {
     "ios": "8.0"
