@@ -1,0 +1,6 @@
+framework module Pods_LCNavigator_Example {
+  umbrella header "Pods-LCNavigator_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

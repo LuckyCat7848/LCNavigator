@@ -1,0 +1,25 @@
+PODS:
+  - LCNavigator (0.1.0):
+    - YYKit
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - LCNavigator (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - YYKit
+
+EXTERNAL SOURCES:
+  LCNavigator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LCNavigator: 5afff884ceca7643f5e2793b19c87cccfa633f50
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: 704fcfbd8ad3d60b1411c47b15bd68bcffc86cc9
+
+COCOAPODS: 1.6.1
